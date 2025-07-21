@@ -6,7 +6,7 @@ This file serves as a Devlog and Timeline for the reimagined-octo-lamp project. 
 
 ## Devlog Entry 1 - Project Planning
 
-> Timestamp: 21:30 BST | Last Edited: 22:55 BST
+> Timestamp: 21/07/2025 21:30 BST | Last Edited: 21/07/2025 22:56 BST
 
 ### Team Allocation
 
