@@ -6,7 +6,7 @@ This file serves as a Devlog and Timeline for the reimagined-octo-lamp project. 
 
 ## Devlog Entry 1 - Project Planning
 
-> Timestamp: 21:30 BST
+> Timestamp: 21:30 BST | Last Edited: 22:55 BST
 
 ### Team Allocation
 
@@ -19,5 +19,11 @@ Following a brief team discussion, we settled on the following team allocations:
 | Thomas Pullan | Project Lead & Programmer |
 | Mason Bennett | Programmer & Tester       |
 | Anna Saunders | GFX & Tester              |
+
+### Project Management
+
+The Project initialisation involved first creating guide documentation such as a README file and a Style guide to inform people on how to properly contribute to the code of the project.
+
+Following some research from previous projects, I devised a styleguide to use proper styling techniques using simple and useful commit and programming strategies.
 
 ### Initial Ideas
