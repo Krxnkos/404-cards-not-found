@@ -1,4 +1,4 @@
-# Reimagined-octo-lamp Project Style Guide
+# 404: Cards Not Found Project Style Guide
 
 This styleguide outlines the conventions for writing code for this project. Code that is not compliant to this styleguide runs the risk of being denied for acceptance or being heavily modified to be granted for release.
 

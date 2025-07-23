@@ -1,6 +1,6 @@
-# Reimagined-octo-lamp Project Timeline
+# 404: Cards Not Found Project Timeline
 
-This file serves as a Devlog and Timeline for the reimagined-octo-lamp project. This file covers everything from the Project Planning to Development and Testing.
+This file serves as a Devlog and Timeline for the 404: Cards Not Found project. This file covers everything from the Project Planning to Development and Testing.
 
 <br>
 
@@ -17,7 +17,7 @@ Following a brief team discussion, we settled on the following team allocations:
 | Name          | Role                      |
 |---------------|---------------------------|
 | Thomas Pullan | Project Lead & Programmer |
-| Mason Bennett | Programmer & Tester       |
+| Mason Bennett | Logic Programmer & Tester |
 | Anna Saunders | GFX & Tester              |
 
 ### Project Management
