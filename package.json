@@ -1,0 +1,28 @@
+{
+  "name": "reimagined-octo-lamp",
+  "version": "1.0.0",
+  "description": "Welcome to reimagined-octo-lamp! This is a project that has been created for the Hack Club Summer of Making 2025 event.\r *Insert project description here*",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Krxnkos/reimagined-octo-lamp.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Krxnkos/reimagined-octo-lamp/issues"
+  },
+  "homepage": "https://github.com/Krxnkos/reimagined-octo-lamp#readme",
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "express": "^5.1.0"
+  }
+}
