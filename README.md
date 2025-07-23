@@ -1,8 +1,8 @@
-# Reimagined-octo-lamp
+# 404: Cards Not Found
 
 ## Welcome
 
-Welcome to reimagined-octo-lamp! This is a project that has been created for the Hack Club Summer of Making 2025 event.
+Welcome to 404: Cards Not Found! This is a project that has been created for the Hack Club Summer of Making 2025 event.
 *Insert project description here*
 
 ### Meet the Team
@@ -10,7 +10,7 @@ Welcome to reimagined-octo-lamp! This is a project that has been created for the
 | Name          | Role                      |
 |---------------|---------------------------|
 | Thomas Pullan | Project Lead & Programmer |
-| Mason Bennett | Programmer & Tester       |
+| Mason Bennett | Logic Programmer & Tester |
 | Anna Saunders | GFX & Tester              |
 
 ## Cloning This Repository
@@ -18,13 +18,13 @@ Welcome to reimagined-octo-lamp! This is a project that has been created for the
 To get started with this project, clone the repository using the following command in your terminal:
 
 ```sh
-git clone https://github.com/krxnkos/reimagined-octo-lamp.git
+git clone https://github.com/Krxnkos/404-cards-not-found.git
 ```
 
 After cloning the repository, please navigate to the project directory:
 
 ```sh
-cd reimagined-octo-lamp
+cd 404-cards-not-found
 ```
 
 Now you are ready to begin using and contributing to this repository
