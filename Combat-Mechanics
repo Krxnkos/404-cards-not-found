@@ -1,1 +1,16 @@
+Combat Mechanics
+
+**Watts**: **Watts** operates as the “energy” of the combat system. Cards require a certain amount of **Watts** to use. (E.g., [Example Attack] requires 2 **Watts** to use. Using cards that exceed the **Watts** limit IS possible, but comes with downsides. [See Overwatt])
+
+**Overwatt**: **Overwatt** is the attempt to use cards that have a **Watts** cost higher than is currently available. The card LAST PLAYED triggers the *Overwatted* Debuff on the character related to that card. (E.g., [Attack 1] and [Attack 2] use 7 of 9 available **Watt**s. [Buff 3] costs 4 **Watts** and is the last card played, so it triggers *Overwatted* for its related character.)
+
+**Hacks**: Attacks belonging to this group are the trademarks of ***Hackers***. **Hacks** primarily inflict a balance of damage and debuffs to enemies, but some trade in the damage for more disruptive debuffs.
+
+**Security**: Attacks belonging to this group are the trademarks of ***SecOperatives***. **Security** cards are focused on buffing, healing and defending allies.
+
+**Exploits**: Attacks belonging to this group are the trademarks of ***Crashers***. Just like their class, **Exploits** are all about damage, damage and more damage.
+
+**BMGs**: BMGs, or Black Market Goods, are one-time use cards obtainable from Black Market Merchants. BMGs have varying effects, but all share the class perk of destroying themselves after use, becoming unavaliable for the rest of the battle. Once the battle is over though, BMGs become useable again.
+
+**Overshield**: **Overshield** is an extension of health given by some card effects. **Overshield** will ALWAYS be damaged by attacks first, unless depleted or circumvented by some cards. **Overshield** also depletes a portion every turn, and can NEVER exceed a character's health.
 

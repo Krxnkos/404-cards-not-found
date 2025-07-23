@@ -1,1 +1,15 @@
+Generics:
+***Script Kiddie***:
+A wannabe hacker using stolen code and brute-force attacks.
+Unique Ability: Newbie
+Effect: Has a 100% chance of taking 2 damage after every used Hack.
+
+Enforcers:
+***AES-Knight***: A towering construct of shifting, glowing code blocks. Houses data so tightly encrypted it's practically magic. It stands vigil over secure zones, immune to most intrusions and cyberattacks.
+Unique Ability: CAPTCHA’d
+Effect: Has a 75% percent chance of cancelling out attempted Hack-based attacks and dealing punishment damage.
+
+Bosses
+***RSA Archon***:
+A corrupted, AES-Knight prototype whose manipulation of encryption techniques causes the breakdown of reality around itself…
 

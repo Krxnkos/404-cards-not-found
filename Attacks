@@ -1,1 +1,18 @@
+Port Scan
+Attack Type: Hack
+Effect: Causes a targeted enemy to take 5 + DamageBonus% more damage
+Flavour Text: “Knock knock… oh wow, you really don’t use a firewall, huh?”
+Combat Formula: DamageBonus% = 5 + (LevelDiff × 2)
 
+Cheap Bluetooth Headphones
+Attack Type: BMG
+Effect: Target's next attack has a 25% chance to fail.
+Flavour Text: “Ze bluetooth dewise iz ready to pear.”
+
+Firewall
+Attack Type: Security
+Effect: Grants one ally a Hack-Resistant **Overshield**.
+Flavour Text: “Side effects may include feeling way too secure and a slight burning sensation.”
+
+Glitch
+Attack Type: Hack
