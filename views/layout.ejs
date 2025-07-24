@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en" itemscope itemtype="https://schema.org/WebPage">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="<%= siteDescription || 'A card-themed 404 error page project for Hack Club Summer of Making 2025' %>">
+  <meta name="author" content="<%= author || 'Thomas Pullan, Mason Bennett & Anna Saunders' %>">
+  <meta name="keywords" content="404 error, cards, hack club, summer of making, web development">
+  <meta name="robots" content="index, follow">
+  
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="<%= pageType || 'website' %>">
+  <meta property="og:url" content="<%= canonicalUrl || '' %>">
+  <meta property="og:title" content="<%= title %>">
+  <meta property="og:description" content="<%= siteDescription || 'A card-themed 404 error page project for Hack Club Summer of Making 2025' %>">
+  <meta property="og:site_name" content="<%= siteName || '404: Cards Not Found' %>">
+  
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:url" content="<%= canonicalUrl || '' %>">
+  <meta property="twitter:title" content="<%= title %>">
+  <meta property="twitter:description" content="<%= siteDescription || 'A card-themed 404 error page project for Hack Club Summer of Making 2025' %>">
+  
+  <!-- Canonical URL -->
+  <% if (typeof canonicalUrl !== 'undefined' && canonicalUrl) { %>
+    <link rel="canonical" href="<%= canonicalUrl %>">
+  <% } %>
+  
+  <!-- Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "<%= siteName || '404: Cards Not Found' %>",
+    "url": "<%= canonicalUrl || '' %>",
+    "description": "<%= siteDescription || 'A card-themed 404 error page project for Hack Club Summer of Making 2025' %>",
+    "author": {
+      "@type": "Organization",
+      "name": "<%= author || 'Thomas Pullan, Mason Bennett & Anna Saunders' %>"
+    },
+    "inLanguage": "en-US"
+  }
+  </script>
+  
+  <title><%= title %></title>
+  
+  <!-- Preload critical resources -->
+  <link rel="preload" href="/css/style.css" as="style">
+  <link rel="preload" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" as="style" crossorigin>
+  
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="/css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  
+  <!-- Accessibility -->
+  <style>
+    .sr-only {
+      position: absolute;
+      width: 1px;
+      height: 1px;
+      padding: 0;
+      margin: -1px;
+      overflow: hidden;
+      clip: rect(0, 0, 0, 0);
+      white-space: nowrap;
+      border: 0;
+    }
+    
+    .skip-link {
+      position: absolute;
+      top: -40px;
+      left: 6px;
+      background: #000;
+      color: #fff;
+      padding: 8px;
+      text-decoration: none;
+      border-radius: 4px;
+      z-index: 1000;
+    }
+    
+    .skip-link:focus {
+      top: 6px;
+    }
+    
+    @media (prefers-reduced-motion: reduce) {
+      .reduced-motion * {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+      }
+    }
+    
+    .keyboard-navigation button:focus,
+    .keyboard-navigation a:focus,
+    .keyboard-navigation [tabindex]:focus {
+      outline: 3px solid #6366f1;
+      outline-offset: 2px;
+    }
+  </style>
+</head>
+<body itemscope itemtype="https://schema.org/WebPage">
+  <!-- Skip to content link for screen readers -->
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+  
+  <header class="header" role="banner" itemscope itemtype="https://schema.org/WPHeader">
+    <nav class="nav" role="navigation" aria-label="Main navigation" itemscope itemtype="https://schema.org/SiteNavigationElement">
+      <div class="nav-container">
+        <a href="/" class="nav-logo" aria-label="Home - <%= siteName || '404: Cards Not Found' %>" itemprop="url">
+          <span itemprop="name"><%= siteName || '404: Cards Not Found' %></span>
+        </a>
+        <ul class="nav-menu" role="menubar">
+          <li role="none">
+            <a href="/" class="nav-link" role="menuitem" aria-current="<%= title.includes('404: Cards Not Found') && !title.includes('About') && !title.includes('Play') ? 'page' : 'false' %>" itemprop="url">
+              <span itemprop="name">Home</span>
+            </a>
+          </li>
+          <li role="none">
+            <a href="/about" class="nav-link" role="menuitem" aria-current="<%= title.includes('About') ? 'page' : 'false' %>" itemprop="url">
+              <span itemprop="name">About</span>
+            </a>
+          </li>
+          <li role="none">
+            <a href="/game" class="nav-link" role="menuitem" aria-current="<%= title.includes('Play') ? 'page' : 'false' %>" itemprop="url">
+              <span itemprop="name">Play</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main-content" class="main" role="main" tabindex="-1" itemprop="mainContentOfPage">
+    <%- body %>
+  </main>
+
+  <footer class="footer" role="contentinfo" itemscope itemtype="https://schema.org/WPFooter">
+    <div class="footer-container">
+      <p itemprop="copyrightNotice">
+        <time datetime="2025" itemprop="copyrightYear">2025</time> 
+        <span itemprop="copyrightHolder" itemscope itemtype="https://schema.org/Organization">
+          <span itemprop="name"><%= siteName || '404: Cards Not Found' %></span>
+        </span> - 
+        <a href="https://hackclub.com" target="_blank" rel="noopener noreferrer" aria-label="Hack Club Summer of Making 2025 (opens in new tab)">
+          Hack Club Summer of Making 2025
+        </a>
+      </p>
+      <div class="team-credits" itemscope itemtype="https://schema.org/Organization">
+        <p>Created by <span itemprop="member"><%= author || 'Thomas Pullan, Mason Bennett & Anna Saunders' %></span></p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- JavaScript -->
+  <script src="/js/main.js" defer></script>
+  
+  <!-- Analytics placeholder (if needed) -->
+  <% if (typeof analyticsId !== 'undefined' && analyticsId) { %>
+    <script>
+      // Analytics code would go here
+      console.log('Analytics ID: <%= analyticsId %>');
+    </script>
+  <% } %>
+</body>
+</html>

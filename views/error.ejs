@@ -1,0 +1,41 @@
+<section class="error-section" role="alert" aria-labelledby="error-heading" itemscope itemtype="https://schema.org/WebPage">
+  <div class="error-container">
+    <article class="error-card" itemscope itemtype="https://schema.org/Thing">
+      <header>
+        <h1 id="error-heading" class="error-code" itemprop="name" aria-label="Server Error">500</h1>
+        <h2 class="error-title" itemprop="description">Server Error</h2>
+      </header>
+      <div class="error-content">
+        <p class="error-message" itemprop="text">
+          Oops! Something went wrong on our end. The cards seem to be shuffled in the wrong dimension!
+        </p>
+        <% if (error && error.message) { %>
+          <details class="error-details">
+            <summary>Technical Details</summary>
+            <p class="error-technical">
+              <code><%= error.message %></code>
+            </p>
+            <% if (error.stack) { %>
+              <pre class="error-stack"><%= error.stack %></pre>
+            <% } %>
+          </details>
+        <% } %>
+        <nav class="error-actions" aria-label="Navigation options">
+          <a href="/" class="btn btn-primary" aria-describedby="home-desc">
+            Go Home
+            <span id="home-desc" class="sr-only">Return to the homepage</span>
+          </a>
+          <button onclick="window.location.reload()" class="btn btn-secondary" aria-describedby="reload-desc">
+            Try Again
+            <span id="reload-desc" class="sr-only">Reload the page to try again</span>
+          </button>
+        </nav>
+      </div>
+    </article>
+    <aside class="card-animation" aria-label="Decorative floating cards animation">
+      <div class="floating-card" role="img" aria-label="Error card">❌</div>
+      <div class="floating-card" role="img" aria-label="Warning card">⚠️</div>
+      <div class="floating-card" role="img" aria-label="Question card">❓</div>
+    </aside>
+  </div>
+</section>

@@ -1,0 +1,33 @@
+<section class="error-section" role="alert" aria-labelledby="error-heading" itemscope itemtype="https://schema.org/WebPage">
+  <div class="error-container">
+    <article class="error-card" itemscope itemtype="https://schema.org/Thing">
+      <header>
+        <h1 id="error-heading" class="error-code" itemprop="name" aria-label="Error 404">404</h1>
+        <h2 class="error-title" itemprop="description">Cards Not Found</h2>
+      </header>
+      <div class="error-content">
+        <p class="error-message" itemprop="text">
+          Oops! The page you're looking for seems to have vanished like a card up a magician's sleeve.
+        </p>
+        <p class="error-url" aria-label="Requested URL">
+          Requested: <code itemprop="url"><%= url %></code>
+        </p>
+        <nav class="error-actions" aria-label="Navigation options">
+          <a href="/" class="btn btn-primary" aria-describedby="home-desc">
+            Go Home
+            <span id="home-desc" class="sr-only">Return to the homepage</span>
+          </a>
+          <a href="/game" class="btn btn-secondary" aria-describedby="game-desc">
+            Play Game
+            <span id="game-desc" class="sr-only">Start playing the card game</span>
+          </a>
+        </nav>
+      </div>
+    </article>
+    <aside class="card-animation" aria-label="Decorative floating cards animation">
+      <div class="floating-card" role="img" aria-label="Joker card">🃏</div>
+      <div class="floating-card" role="img" aria-label="Ace of spades">🂡</div>
+      <div class="floating-card" role="img" aria-label="King card">🂮</div>
+    </aside>
+  </div>
+</section>
